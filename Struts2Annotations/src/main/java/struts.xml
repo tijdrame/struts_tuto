@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<!--package name="test" extends="struts-default">
+		< action name="calculateEMI" class="action.CalculateAction" method="calculateEMI">
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="calculateInterestRate" class="action.CalculateAction" method="calculateInterestRate">
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="calculateIncomeTax" class="action.CalculateAction" method="calculateIncomeTax">
+			<result name="success">/success.jsp</result>
+		</action>
+	</package-->
+	<!-- package name="product" extends="struts-default" namespace="/product">
+		<action name="getDetails" class="action.ProductDetailAction">
+			<result name="success">/namespace.jsp</result>
+		</action>
+	</package>
+	<package name="user" extends="struts-default" namespace="/user">
+		<action name="getDetails" class="action.UserDetailAction">
+			<result name="success">/namespace.jsp</result>
+		</action>
+	</package-->
+</struts>
